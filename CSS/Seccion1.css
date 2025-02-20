@@ -1,0 +1,85 @@
+/* Estilos base */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    /* Ajusta según el tamaño máximo que desees */
+    margin: 0 auto;
+    /* Centrar el contenedor */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    /* Mantener la proporción de la imagen */
+    display: block;
+}
+
+.text-overlay,
+.text-overlay2,
+.text-overlay3 {
+    position: absolute;
+    color: white;
+   
+    /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-overlay {
+    top: 10%;
+    left: 5%;
+    font-size: 3rem;
+    /* Tamaño relativo */
+}
+
+.text-overlay2 {
+    top: 25%;
+    left: 5%;
+    font-size: 3rem;
+    /* Tamaño relativo */
+}
+
+.text-overlay3 {
+    top: 40%;
+    left: 5%;
+    right: 5%;
+    font-size: 2rem;
+    /* Tamaño relativo */
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+/* Media Queries para ajustar en diferentes pantallas */
+@media (max-width: 768px) {
+    .text-overlay {
+        font-size: 1.5rem;
+        /* Reducir tamaño en pantallas pequeñas */
+    }
+
+    .text-overlay2 {
+        font-size: 1.2rem;
+    }
+
+    .text-overlay3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-overlay {
+        font-size: 1.2rem;
+        /* Ajustar aún más para móviles */
+        top: 5%;
+    }
+
+    .text-overlay2 {
+        font-size: 1rem;
+        top: 20%;
+    }
+
+    .text-overlay3 {
+        font-size: 0.8rem;
+        top: 35%;
+        
+    }
+}
