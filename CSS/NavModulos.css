@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* MODIFICA EL NAV DE LOS MODULOS */
+nav {
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Si quieres centrar verticalmente también */
+    z-index: 50;
+}
+
+.boton-imagen {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-imagen img {
+    width: 150px;
+    /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px;
+    /* Bordes redondeados opcionales */
+}

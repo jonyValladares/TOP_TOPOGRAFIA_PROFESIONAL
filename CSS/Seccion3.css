@@ -1,0 +1,88 @@
+/* Estilos base */
+.image3-container {
+    position: relative;
+    width: 100%;
+    max-width: 1900px;
+    /* Ajusta según el tamaño máximo que desees */
+    margin: 0 auto;
+    /* Centrar el contenedor */
+}
+
+.image3-container img {
+    width: 100%;
+    height: auto;
+    /* Mantener la proporción de la imagen */
+    display: block;
+}
+
+.text3-overlay,
+.text3-overlay2,
+.text3-overlay3 {
+    position: absolute;
+   
+   
+    /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text3-overlay {
+    top: 10%;
+    left: 5%;
+    font-size: 3rem;
+    /* Tamaño relativo */
+    color: #1d454d;
+}
+
+.text3-overlay2 {
+    top: 25%;
+    left: 5%;
+    font-size: 3rem;
+    /* Tamaño relativo */
+}
+
+.text3-overlay3 {
+    top: 30%;
+    left: 5%;
+    right: 5%;
+    font-size: 2rem;
+    /* Tamaño relativo */
+    color:white;
+    background-color: rgba(0, 0, 0, 0.411);
+   
+}
+
+/* Media Queries para ajustar en diferentes pantallas */
+@media (max-width: 768px) {
+    .text3-overlay {
+        font-size: 1.5rem;
+        /* Reducir tamaño en pantallas pequeñas */
+    }
+
+    .text3-overlay2 {
+        font-size: 1.2rem;
+    }
+
+    .text3-overlay3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text3-overlay {
+        font-size: 1.2rem;
+        /* Ajustar aún más para móviles */
+        top: 5%;
+    }
+
+    .text3-overlay2 {
+        font-size: 1rem;
+        top: 20%;
+    }
+
+    .text3-overlay3 {
+        font-size: 0.8rem;
+        top: 35%;
+        
+    }
+}
