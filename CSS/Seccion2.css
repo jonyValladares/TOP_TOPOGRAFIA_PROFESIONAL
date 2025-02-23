@@ -10,7 +10,7 @@ body {
 }
 .container {
     padding: 50px;
-    font-size: larger;
+    font-size:x-large;
 }
 .process {
     display: flex;

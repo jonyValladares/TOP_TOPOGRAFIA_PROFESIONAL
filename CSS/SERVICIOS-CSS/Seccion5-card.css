@@ -1,0 +1,21 @@
+.card-img-overlay {
+    max-width: 100%;
+    padding: 1rem;
+    overflow: auto; /* Por si el texto es demasiado largo */
+    word-break: break-word; /* Para evitar desbordamientos de palabras largas */
+}
+
+.card-title5 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+
+}
+
+.card-text5 {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-left: 3%;
+}
