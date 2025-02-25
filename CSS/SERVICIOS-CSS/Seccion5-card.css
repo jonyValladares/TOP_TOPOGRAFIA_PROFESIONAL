@@ -6,16 +6,36 @@
 }
 
 .card-title5 {
-    font-size: 4rem;
+    font-size: clamp(2rem, 8vw, 4rem); /* Ajuste dinámico del tamaño de letra */
     font-weight: bold;
     padding-top: 3%;
     padding-bottom: 6%;
     padding-left: 3%;
-
 }
 
 .card-text5 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 6vw, 3rem); /* Ajuste dinámico del tamaño de letra */
     line-height: 1.5;
     padding-left: 3%;
+}
+
+/* Opcional: Media queries para ajustes más específicos */
+@media (max-width: 768px) {
+    .card-title5 {
+        font-size: 3rem;
+    }
+
+    .card-text5 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-title5 {
+        font-size: 2rem;
+    }
+
+    .card-text5 {
+        font-size: 1.5rem;
+    }
 }

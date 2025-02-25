@@ -1,5 +1,6 @@
 .carousel-container {
     position: relative;
+    margin-top: 78px;
   }
   
   .overlay-text {
@@ -11,7 +12,7 @@ color: white;
 font-size: 5vw; /* Tamaño de fuente ajustable según el ancho de la pantalla */
 font-weight: bold;
 text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
-z-index: 10; /* Asegura que el texto esté por encima del carrusel */
+z-index: 999; /* Asegura que el texto esté por encima del carrusel */
 }
 
 @media (max-width: 768px) {
