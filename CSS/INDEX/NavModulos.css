@@ -5,9 +5,9 @@ body {
 
 /* MODIFICA EL NAV DE LOS MODULOS */
 nav {
-    background-color: #ffffff85;
+    background-color: #ffffff;
     padding: 15px;
-    text-align: left;
+    text-align: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
     /* Sombra */
     display: flex;
