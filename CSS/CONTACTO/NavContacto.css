@@ -16,7 +16,7 @@ nav {
     color: rgb(0, 0, 0);
     padding: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around ;
     align-items: center;
     position: fixed;
     top: 0;
@@ -64,7 +64,7 @@ nav {
 position: fixed;
 top: 60px; /* Altura del nav */
 right: -250px; /* Está fuera de la pantalla inicialmente */
-width: 100px;
+width: 150px;
 height: calc(100vh - 60px); /* Para que no cubra el nav */
 background-color: #333333d2;
 padding: 1rem;
@@ -115,5 +115,3 @@ right: 0; /* Deslizamos hacia la pantalla */
 .content {
     padding: 100px 20px;
 }
-
-
