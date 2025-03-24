@@ -3,7 +3,7 @@ body {
     background-color: #c6a186;
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
-    text-align: left;
+    text-align: justify;
     margin: 0;
     padding: 0;
     z-index: auto;
@@ -16,8 +16,8 @@ body {
 
 .process {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
 }
 
