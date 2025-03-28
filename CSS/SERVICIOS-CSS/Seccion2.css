@@ -30,16 +30,17 @@ body {
     text-align: center;
 }
 
-/* Media Queries para pantallas pequeñas */
-@media (max-width: 768px) {
+/* Media query para pantallas pequeñas, como móviles */
+@media (max-width: 767px) {
     .text-overlay {
-        font-size: 16px; /* Reducir el tamaño del texto en pantallas pequeñas */
+        font-size: 40px; /* Tamaño de fuente más grande en móviles */
     }
 }
 
-@media (max-width: 480px) {
+/* Media query para pantallas más grandes, como laptops */
+@media (min-width: 768px) {
     .text-overlay {
-        font-size: 14px; /* Aún más pequeño en pantallas muy pequeñas */
+        font-size: 70px; /* Tamaño de fuente por defecto en laptops y pantallas más grandes */
     }
 }
 

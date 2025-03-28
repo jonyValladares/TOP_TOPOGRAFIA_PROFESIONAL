@@ -3,15 +3,29 @@ body {
     background-color: #c6a186;
     color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
-    text-align: justify;
+
     margin: 0;
     padding: 0;
     z-index: auto;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px; /* Tamaño más grande en tabletas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 20px; /* Tamaño más grande en teléfonos */
+    }
+}
+
 .container {
     padding: 50px;
     font-size: x-large;
+    text-align:center;
+    
 }
 
 .process {
@@ -52,6 +66,7 @@ body {
     margin-top: 20px;
     border-radius: 20%;
     transition: background-color 0.3s ease;
+    
 }
 
 /* Hover effect */
