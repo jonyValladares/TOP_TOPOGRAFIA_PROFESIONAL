@@ -11,17 +11,22 @@ body {
     text-align: center;
 }
 
+
+
+
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
     color: white;
     font-size: 20px;
-    transition: 0.3s;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #ffffff;
+    transform: scale(1.5); /* Gira y agranda ligeramente */
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Efecto de resplandor */
 }
+
 
 .newsletter {
     margin: 20px 0;
