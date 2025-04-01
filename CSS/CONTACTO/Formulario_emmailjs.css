@@ -1,0 +1,85 @@
+/* .field {
+    margin-bottom: 20px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  } */
+
+
+
+  .field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.field label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dbdbdb;
+    margin-bottom: 5px;
+}
+
+.field input {
+    width: 100%; /* Ocupará todo el ancho disponible */
+    max-width: 600px; /* En pantallas grandes no será demasiado ancho */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.field input:focus {
+    border-color: #4460AA;
+    outline: none;
+    box-shadow: 0 0 5px rgba(68, 96, 170, 0.5);
+}
+
+input[type="submit"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4460AA;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #36508A;
+}
+
+/* 🔹 Media Query para pantallas pequeñas (menos de 600px) */
+@media (max-width: 600px) {
+    .field input,
+    input[type="submit"] {
+        max-width: 100%; /* Ocupa todo el ancho disponible */
+        font-size: 14px; /* Texto un poco más pequeño */
+        padding: 10px;
+    }
+}
