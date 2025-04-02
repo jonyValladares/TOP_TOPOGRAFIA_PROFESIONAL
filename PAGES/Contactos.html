@@ -263,6 +263,7 @@
   cursor: pointer;
 }
 
+/* MODIFICA LA LISTA DE CONTATCTOS */
 .direct-contact-container {
   flex: 1;
   min-width: 300px;
@@ -270,6 +271,9 @@
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
 }
 
 .contact-list {
@@ -284,7 +288,7 @@
 
 .social-media-list {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   gap: 15px;
   padding: 0;
   list-style: none;
@@ -340,24 +344,16 @@
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <div class="social-icons">
-            <a href="https://www.facebook.com/"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://x.com/?lang=en&mx=2"><i
-                    class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/"><i
-                    class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/"><i
-                    class="fab fa-youtube"></i></a>
-            <!-- <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+
+          <a href="https://www.facebook.com/"  target="_blank" ><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/?lang=en&mx=2"  target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"  target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/"  target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/50487433534"  target="_blank"> <i class="fab fa-whatsapp"></i></a>
 
         </div>
 
-        <!-- <div class="newsletter">
-        <strong>Sign up for our newsletter</strong><br><br>
-        <input type="email" placeholder="Email address">
-        <button>SUBSCRIBE</button>
-    </div> -->
-
+  
         <div class="copyright" style="color: white;">
             &copy; 2025 Ingenieria Profesional. Todos los derechos
             reservados. </a>

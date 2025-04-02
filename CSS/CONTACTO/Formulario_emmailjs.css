@@ -38,6 +38,7 @@
     font-weight: bold;
     color: #dbdbdb;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .field input {
@@ -51,9 +52,9 @@
 }
 
 .field input:focus {
-    border-color: #4460AA;
+    border-color: #90342b;
     outline: none;
-    box-shadow: 0 0 5px rgba(68, 96, 170, 0.5);
+    box-shadow: 0 0 20px rgba(141, 63, 0, 0.781);
 }
 
 input[type="submit"] {
@@ -62,7 +63,7 @@ input[type="submit"] {
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #4460AA;
+    background-color: #90342b;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -71,7 +72,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #36508A;
+    background-color:#c0855d ;
 }
 
 /* 🔹 Media Query para pantallas pequeñas (menos de 600px) */
