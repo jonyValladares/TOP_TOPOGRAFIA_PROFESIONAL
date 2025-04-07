@@ -84,9 +84,9 @@ nav {
 
 .mobile-menu {
 position: fixed;
-top: 60px; /* Altura del nav */
+top: 70px; /* Altura del nav */
 right: -250px; /* Está fuera de la pantalla inicialmente */
-width: 100px;
+width: 110px;
 height: calc(100vh - 60px); /* Para que no cubra el nav */
 background-color: #333333d2;
 padding: 1rem;
@@ -102,6 +102,7 @@ transition: right 0.8s ease-in-out, visibility 0s 0.8s, opacity 0.8s ease-in-out
     color: white;
     text-decoration: none;
     margin-bottom: 1rem;
+    font-size:medium;
 }
 
 .mobile-menu.active {
